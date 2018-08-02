@@ -13,3 +13,9 @@ Where
 * *duration*: The duration of each frame in the GIF (in seconds).
 * *frame_step*: The number of miliseconds in which the next frame  will be taken.
 * *start_time*: The start position to begin capturing frames (in miliseconds).
+
+Then use 
+```
+v2g.create_gif()
+```
+And (if success) the GIF will be created :)

@@ -15,6 +15,9 @@ printf "${red}Installing MySQL...${nc}\n"
 dnf install https://dev.mysql.com/get/mysql80-community-release-fc29-1.noarch.rpm -y
 dnf install mysql-community-server -y
 
+##For development
+#dnf install mysql-devel -y
+
 ## Uncomment if want to update/install MySQL 5.7.24
 #dnf --disablerepo=mysql80-community --enablerepo=mysql57-community install mysql-community-server
 
